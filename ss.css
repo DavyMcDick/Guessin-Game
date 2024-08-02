@@ -1,0 +1,43 @@
+#guessInput {
+    width: 150px;
+    height: 20px;
+} 
+.x {
+    width: auto;
+    height: 25px;
+}
+body {
+    text-align: center;
+    margin-top: 15rem;
+}
+h1, p, #result {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    border: none;
+    
+}
+.box {
+    background: linear-gradient(45deg, #48c75b, #dbe9ea);
+    height: 250px;
+    width: 400px;
+    margin: auto;
+    border-radius: 13px;
+    
+}
+h1 {
+    padding-top: 61px;
+}
+
+input[type="submit"] {
+    background: linear-gradient(45deg, #9fb4a2, #ffffff);
+
+}
+#result {
+    margin-top: 10px;
+}
